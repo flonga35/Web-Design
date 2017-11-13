@@ -121,3 +121,135 @@ For Web Design
 
 </body>
 </html>
+
+
+
+
+
+//second peace of code
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>float site</title>
+
+<style>
+	.headerBox {
+		
+		text-align: center;
+		color: #343434;
+		border: solid;
+		border-color: #343434;
+		font-size: 70px;
+		background-color: #BFBFBF;
+		width: 100%;
+		margin-top: 20px;
+		margin margin-bottom: 60px;
+		
+	}
+	.mainContainer {
+		width: 1000px;
+		margin-right: auto;
+		margin-left: auto;
+		
+	}
+	
+	body {
+		background-color: #1A2855;
+		
+	}
+	.box1 {
+		background-color: #bfbfbf;
+		border: solid;
+		border-color: #343434;
+		border-width:thick;
+		width: 350px;
+		height: 400px;
+		margin-top: 30px;
+		float: left;
+	}       
+	
+	.box2 {
+		background-color: #bfbfbf;
+		border: solid;
+		border-color: #343434;
+		border-width:thick;
+		width: 350px;
+		height: 400px;
+		margin-top: 30px;
+		text-align: center;
+		float: right;
+		
+	}
+	
+	.box3 {
+		
+		background-color: #bfbfbf;
+		border: solid;
+		border-color: #343434;
+		border-width:thick;
+	    width: 350px;
+		height: 400px;
+		margin-top: 30px;
+		float: left;
+	}
+ 
+	.red {
+		color: #A81010;
+		text-align: center;
+		font-size: 40px;
+		
+	}
+	.picright {
+		height: 400px;
+		width: 600px;
+		border: solid;
+		border-color: #343434;
+		border-width:thick;
+		float: right;
+		margin-top: 30px;
+		
+	}
+	
+	.picleft {
+		height: 400px;
+		width: 600px;
+		border: solid;
+		border-color: #343434;
+		border-width:thick;
+		float: left;
+		margin-top: 30px;
+		
+	}
+	
+	
+	</style>
+</head>
+
+<body>
+<div class="mainContainer">
+
+<div class="headerBox">
+<p>Movies of the 21st Century</p>
+	</div>
+	
+<div class="box1">
+	<p class="red">Avengers</p>
+	
+</div>
+<img class="picright" src="avengers-spider-man1.jpg">
+
+<div class="box2">
+	<p class="red">Star Wars</p>
+</div>
+<img class="picleft" src="seven_starwars3d_06.jpg">
+
+<div class="box3">
+	<p class="red">Jurrasic park</p>
+</div>
+<img class="picright" src="../../Documents/Unnamed Site 2/dinosaur.png">
+	</div>
+</body>
+</html>
+
